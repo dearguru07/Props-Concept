@@ -1,14 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Props from "./props";
+import List from "./lists";
 
 const App = () => {
   return (
-
-    <React.Fragment>
-      <h1>Hello, world!</h1>
-      <p>This is a paragraph within a fragment.</p>
-    </React.Fragment>
+    <div>
+      <List/>
+    </div>
+    // <React.Fragment>
+    //   <h1>Hello, world!</h1>
+    //   <p>This is a paragraph within a fragment.</p>
+    // <List/>
+    // </React.Fragment>
 
     // <React.Fragment>
     //   <Props />
