@@ -28,6 +28,42 @@ const Array=[
         ratings:'4.7',
         items:'South indian Biryani,kabab'
     },
+    {
+        imgId:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fp5ignthqm9ujdwejor4",
+        heading:"Swathi Gardenia",
+        ratings:'4.7',
+        items:'South indian Biryani,kabab'
+    },
+    {
+        imgId:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fp5ignthqm9ujdwejor4",
+        heading:"Swathi Gardenia",
+        ratings:'4.7',
+        items:'South indian Biryani,kabab'
+    },
+    {
+        imgId:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fp5ignthqm9ujdwejor4",
+        heading:"Swathi Gardenia",
+        ratings:'4.7',
+        items:'South indian Biryani,kabab'
+    },
+    {
+        imgId:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fp5ignthqm9ujdwejor4",
+        heading:"Swathi Gardenia",
+        ratings:'4.7',
+        items:'South indian Biryani,kabab'
+    },
+    {
+        imgId:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fp5ignthqm9ujdwejor4",
+        heading:"Swathi Gardenia",
+        ratings:'4.7',
+        items:'South indian Biryani,kabab'
+    },
+    {
+        imgId:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fp5ignthqm9ujdwejor4",
+        heading:"Swathi Gardenia",
+        ratings:'4.7',
+        items:'South indian Biryani,kabab'
+    },
     
 ]
 const Props=()=>{
