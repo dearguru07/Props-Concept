@@ -7,6 +7,7 @@ import ReactDOM from "react-dom/client";
 // import Back from "./callback";
 import Home from "./home";
 import Ref from "./useRef";
+import Layout from "./class";
 
 export const ContextData=React.createContext()
 const App = () => {
@@ -22,7 +23,9 @@ const App = () => {
         <Home/>
       </ContextData.Provider> */}
 
-      <Ref/>
+      {/* <Ref/> */}
+      <Layout/>
+      
     </div>
     
     // <React.Fragment>
