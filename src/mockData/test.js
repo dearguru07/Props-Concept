@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
-import Header from "./header";
+import Header from "./mockData/header";
 import { useState } from "react";
 
 const Images = [
@@ -16,7 +16,12 @@ const SideImgs = () => {
     <button onClick={()=>{
         setImg(Img+1)
     }}>Prev</button>
-    <img src={Images[Img]}></img>
+    {/* <img src={Images[Img]}></img> */}
+    {
+        Images.map((url)=>{
+            return <Img data={url}/>
+        })
+    }
     <button onClick={()=>{
         setImg(Img-1)
     }}>Next</button>

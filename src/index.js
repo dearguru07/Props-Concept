@@ -1,14 +1,28 @@
-import React from "react";
+import React, { useContext } from "react";
 import ReactDOM from "react-dom/client";
-import Props from "./props";
-import List from "./lists";
-import SideImgs from "./test";
+// import Props from "./mockData/props";
+// import List from "./mockData/lists";
+// import SideImgs from "./test";
+// import Effect from "./mockData/effect";
+// import Back from "./callback";
+import Home from "./home";
+import Ref from "./useRef";
 
+export const ContextData=React.createContext()
 const App = () => {
+  const person='Chilli powder'
   return (
     <div>
       {/* <List/> */}
-      <SideImgs/>
+      {/* <SideImgs/> */}
+      {/* <Effect/> */}
+      {/* <Back/> */}
+
+      {/* <ContextData.Provider value={person}>
+        <Home/>
+      </ContextData.Provider> */}
+
+      <Ref/>
     </div>
     
     // <React.Fragment>
