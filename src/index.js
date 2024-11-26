@@ -11,7 +11,7 @@ import Layout from "./class";
 
 export const ContextData=React.createContext()
 const App = () => {
-  const person='Chilli powder'
+  const person=0
   return (
     <div>
       {/* <List/> */}
@@ -24,7 +24,8 @@ const App = () => {
       </ContextData.Provider> */}
 
       {/* <Ref/> */}
-      <Layout/>
+      {/* <Layout/> */}
+      {person && <span>Hello</span>}
       
     </div>
     

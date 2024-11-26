@@ -9,7 +9,7 @@
 
 const App=(props)=>{
     return (<div>
-        <img src={props.value.imgId} alt="images"></img>
+        <img src={props.value.zimgId} alt="images"></img>
         <h5>{props.value.para}</h5>
         <p>{props.value.guru}</p>
         <p>{props.value.guu}k</p>

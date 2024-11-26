@@ -1,9 +1,9 @@
 import React from "react";
-
+// import reactDOM
 
 const Card=(props)=>{
     return <div className="card">
-        <img src={props.data.imgId}></img>
+        <img src={props.data.imgId} alt="images"></img>
         <h4 className="data">{props.data.heading}</h4>
         <p className="data">{props.data.ratings}</p>
         <p className="data">{props.data.items}</p>
