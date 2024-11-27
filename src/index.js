@@ -12,6 +12,12 @@ import Layout from "./class";
 export const ContextData=React.createContext()
 const App = () => {
   const person=0
+  async function API(){
+    const data=await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=13.0445612&lng=77.57268839999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING')
+    const OriginalData=await data.json()
+    console.log(OriginalData)
+  }
+  API()
   return (
     <div>
       {/* <List/> */}
@@ -24,6 +30,7 @@ const App = () => {
       </ContextData.Provider> */}
 
       {/* <Ref/> */}
+      <Home/>
       {/* <Layout/> */}
       {person && <span>Hello</span>}
       
