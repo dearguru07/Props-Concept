@@ -8,6 +8,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./home";
 import Ref from "./useRef";
 import Layout from "./class";
+import Mom from "./mom";
 
 export const ContextData=React.createContext()
 const App = () => {
@@ -30,7 +31,7 @@ const App = () => {
       </ContextData.Provider> */}
 
       {/* <Ref/> */}
-      <Home/>
+      <Mom/>
       {/* <Layout/> */}
       {person && <span>Hello</span>}
       
