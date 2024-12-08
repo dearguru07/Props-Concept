@@ -35,6 +35,24 @@ const Data=[
     para:"Image with part",
     dataInfo:'Hello world',
     meta:'dfjhsbehifbsh'
+  },
+  {
+    imgId:"https://images.pexels.com/photos/29319438/pexels-photo-29319438/free-photo-of-scenic-view-of-venice-s-grand-canal-with-gondolas.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    para:"Image with part",
+    dataInfo:'Hello world',
+    meta:'dfjhsbehifbsh'
+  },
+  {
+    imgId:"https://images.pexels.com/photos/29319438/pexels-photo-29319438/free-photo-of-scenic-view-of-venice-s-grand-canal-with-gondolas.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    para:"Image with part",
+    dataInfo:'Hello world',
+    meta:'dfjhsbehifbsh'
+  },
+  {
+    imgId:"https://images.pexels.com/photos/29319438/pexels-photo-29319438/free-photo-of-scenic-view-of-venice-s-grand-canal-with-gondolas.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    para:"Image with part",
+    dataInfo:'Hello world',
+    meta:'dfjhsbehifbsh'
   }
 
 ]
