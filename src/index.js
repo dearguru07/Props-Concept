@@ -9,6 +9,7 @@ import Home from "./home";
 import Ref from "./useRef";
 import Layout from "./class";
 import Mom from "./mom";
+import MyForm from "./home";
 
 export const ContextData=React.createContext()
 const App = () => {
@@ -29,11 +30,11 @@ const App = () => {
       {/* <ContextData.Provider value={person}>
         <Home/>
       </ContextData.Provider> */}
-
+      <MyForm/>
       {/* <Ref/> */}
-      <App/>
+      {/* <App/> */}
       {/* <Layout/> */}
-      {person && <span>Hello</span>}
+      {/* {person && <span>Hello</span>} */}
       
     </div>
     

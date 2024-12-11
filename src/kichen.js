@@ -28,8 +28,7 @@
 //       return todos;
 //     }
   
-//     return todos.filter((todo) =>
-//       todo.text.toLowerCase().includes(searchValue.toLowerCase())
+//     return todos.filter((todo) =>todo.text.toLowerCase().includes(searchValue.toLowerCase())
 //     );
 //   }, [searchValue, todos]);
   
