@@ -11,6 +11,7 @@ import Layout from "./class";
 import Mom from "./mom";
 import MyForm from "./home";
 import Compo from "./classC";
+import MyFormOne from "./anirher";
 
 export const ContextData=React.createContext()
 const App = () => {
@@ -31,7 +32,8 @@ const App = () => {
       {/* <ContextData.Provider value={person}>
         <Home/>
       </ContextData.Provider> */}
-      <MyForm/>
+      {/* <MyForm/> */}
+      <MyFormOne/>
       {/* <Compo/> */}
       {/* <Ref/> */}
       {/* <App/> */}
