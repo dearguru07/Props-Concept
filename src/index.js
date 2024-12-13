@@ -14,6 +14,7 @@ import Compo from "./classC";
 import MyFormOne from "./anirher";
 import Counter from "./counter";
 import Count from "./counter";
+import AppIn from "./counter";
 
 export const ContextData=React.createContext()
 const App = () => {
@@ -36,7 +37,8 @@ const App = () => {
       </ContextData.Provider> */}
       {/* <MyForm/> */}
       {/* <MyFormOne/> */}
-      <Count/>
+      {/* <Count/> */}
+      <AppIn/>
       {/* <Compo/> */}
       {/* <Ref/> */}
       {/* <App/> */}
