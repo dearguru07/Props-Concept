@@ -10,6 +10,7 @@ import Ref from "./useRef";
 import Layout from "./class";
 import Mom from "./mom";
 import MyForm from "./home";
+import Compo from "./classC";
 
 export const ContextData=React.createContext()
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
         <Home/>
       </ContextData.Provider> */}
       <MyForm/>
+      <Compo/>
       {/* <Ref/> */}
       {/* <App/> */}
       {/* <Layout/> */}
