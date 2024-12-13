@@ -12,6 +12,8 @@ import Mom from "./mom";
 import MyForm from "./home";
 import Compo from "./classC";
 import MyFormOne from "./anirher";
+import Counter from "./counter";
+import Count from "./counter";
 
 export const ContextData=React.createContext()
 const App = () => {
@@ -33,7 +35,8 @@ const App = () => {
         <Home/>
       </ContextData.Provider> */}
       {/* <MyForm/> */}
-      <MyFormOne/>
+      {/* <MyFormOne/> */}
+      <Count/>
       {/* <Compo/> */}
       {/* <Ref/> */}
       {/* <App/> */}
