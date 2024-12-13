@@ -32,7 +32,7 @@ const App = () => {
         <Home/>
       </ContextData.Provider> */}
       <MyForm/>
-      <Compo/>
+      {/* <Compo/> */}
       {/* <Ref/> */}
       {/* <App/> */}
       {/* <Layout/> */}
