@@ -15,6 +15,10 @@ import MyFormOne from "./anirher";
 import Counter from "./counter";
 import Count from "./counter";
 import AppIn from "./counter";
+import ControlledComponent from "./control";
+import UncontrolledComponent from "./uncontrol";
+
+
 
 export const ContextData=React.createContext()
 const App = () => {
@@ -38,7 +42,9 @@ const App = () => {
       {/* <MyForm/> */}
       {/* <MyFormOne/> */}
       {/* <Count/> */}
-      <AppIn/>
+      {/* <AppIn/> */}
+      {/* <ControlledComponent/> */}
+      <UncontrolledComponent/>
       {/* <Compo/> */}
       {/* <Ref/> */}
       {/* <App/> */}
